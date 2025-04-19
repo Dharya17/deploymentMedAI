@@ -1,0 +1,17 @@
+name: medai-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - faiss-cpu
+  - fastapi
+  - uvicorn
+  - pydantic
+  - numpy
+  - pip:
+      - python-multipart
+      - pypdf
+      - langchain
+      - langchain-community
